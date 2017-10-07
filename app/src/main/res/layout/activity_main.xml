@@ -18,53 +18,271 @@
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:text="@string/title_description" />
 
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        <ImageButton
+            android:id="@+id/imageButtonTwo"
+            style="@style/Widget.AppCompat.ImageButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/two_train_logo" />
 
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        <ImageButton
+            android:id="@+id/imageButtonThree"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/three_train_logo" />
 
-    <Button
-        android:id="@+id/button10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        <ImageButton
+            android:id="@+id/imageButtonFour"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/four_train_logo" />
 
-    <Button
-        android:id="@+id/button11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        <ImageButton
+            android:id="@+id/imageButtonFive"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/five_train_logo" />
 
-    <Button
-        android:id="@+id/button12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        <ImageButton
+            android:id="@+id/imageButtonSix"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/six_train_logo" />
 
-    <Button
-        android:id="@+id/button13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        <ImageButton
+            android:id="@+id/imageButtonSeven"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/seven_train_logo" />
 
-    <Button
-        android:id="@+id/button14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        <ImageButton
+            android:id="@+id/imageButtonG"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/g_train_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButtonA"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:background="#0000"
+            android:cropToPadding="false"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/a_train_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButtonC"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/c_train_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButtonE"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/e_train_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButtonS"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/gray_s_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButtonB"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="3"
+            android:layout_row="0"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/b_train_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButtonD"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="3"
+            android:layout_row="1"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/d_train_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButtonF"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="3"
+            android:layout_row="2"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/f_train_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButtonM"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="3"
+            android:layout_row="3"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/m_train_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButtonOne"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/one_train_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButtonN"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="4"
+            android:layout_row="0"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/n_train_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButtonQ"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="4"
+            android:layout_row="1"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/q_train_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButtonR"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="4"
+            android:layout_row="2"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/r_train_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButtonW"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="4"
+            android:layout_row="3"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/w_train_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButtonJ"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="5"
+            android:layout_row="0"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/j_train_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButtonZ"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="5"
+            android:layout_row="1"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/z_train_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButtonH"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="5"
+            android:layout_row="2"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/h_train_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButtonSBlue"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="5"
+            android:layout_row="3"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/s_train_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButtonL"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="6"
+            android:layout_row="0"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/l_gray_logo" />
+
+        <ImageButton
+            android:id="@+id/imageButtonT"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="6"
+            android:layout_row="1"
+            android:background="#0000"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/t_train_logo" />
+
+    </GridLayout>
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
