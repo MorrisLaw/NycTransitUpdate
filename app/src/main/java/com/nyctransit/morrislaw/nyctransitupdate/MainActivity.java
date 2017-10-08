@@ -1,5 +1,6 @@
 package com.nyctransit.morrislaw.nyctransitupdate;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -51,8 +52,9 @@ public class MainActivity extends AppCompatActivity {
         oneTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the 1 train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -61,8 +63,9 @@ public class MainActivity extends AppCompatActivity {
         twoTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the 2 train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -71,8 +74,9 @@ public class MainActivity extends AppCompatActivity {
         threeTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the 3 train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -81,8 +85,9 @@ public class MainActivity extends AppCompatActivity {
         fourTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the 4 train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -91,8 +96,9 @@ public class MainActivity extends AppCompatActivity {
         fiveTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the 5 train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -101,8 +107,9 @@ public class MainActivity extends AppCompatActivity {
         sixTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the 6 train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -111,8 +118,9 @@ public class MainActivity extends AppCompatActivity {
         sevenTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the 7 train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -121,8 +129,9 @@ public class MainActivity extends AppCompatActivity {
         aTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the A train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -131,8 +140,9 @@ public class MainActivity extends AppCompatActivity {
         cTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the C train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -141,8 +151,9 @@ public class MainActivity extends AppCompatActivity {
         eTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the E train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -151,8 +162,9 @@ public class MainActivity extends AppCompatActivity {
         bTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the B train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -161,8 +173,9 @@ public class MainActivity extends AppCompatActivity {
         dTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the D train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -171,8 +184,9 @@ public class MainActivity extends AppCompatActivity {
         fTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the F train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -181,8 +195,9 @@ public class MainActivity extends AppCompatActivity {
         mTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the M train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -191,8 +206,9 @@ public class MainActivity extends AppCompatActivity {
         nTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the N train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -201,8 +217,9 @@ public class MainActivity extends AppCompatActivity {
         qTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the Q train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -211,8 +228,9 @@ public class MainActivity extends AppCompatActivity {
         rTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the R train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -221,8 +239,9 @@ public class MainActivity extends AppCompatActivity {
         wTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the W train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -231,8 +250,9 @@ public class MainActivity extends AppCompatActivity {
         jTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the J train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -241,8 +261,9 @@ public class MainActivity extends AppCompatActivity {
         zTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the Z train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -251,8 +272,9 @@ public class MainActivity extends AppCompatActivity {
         hTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the H train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -260,9 +282,10 @@ public class MainActivity extends AppCompatActivity {
         sTrainButton = (ImageButton) findViewById(R.id.imageButtonSBlue);
         sTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the S train.",
-                        Toast.LENGTH_SHORT).show();
+            public void onClick(View view) {t st
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -271,8 +294,9 @@ public class MainActivity extends AppCompatActivity {
         lTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the L train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -281,8 +305,9 @@ public class MainActivity extends AppCompatActivity {
         tTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the T train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
@@ -291,8 +316,9 @@ public class MainActivity extends AppCompatActivity {
         gTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You've selected the G train.",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
