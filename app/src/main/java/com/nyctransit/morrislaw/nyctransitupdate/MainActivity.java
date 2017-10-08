@@ -282,7 +282,7 @@ public class MainActivity extends AppCompatActivity {
         sTrainButton = (ImageButton) findViewById(R.id.imageButtonSBlue);
         sTrainButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {t st
+            public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, TrainLineStatusActivity.class);
                 startActivity(intent);
                 finish();
